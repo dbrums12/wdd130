@@ -1,0 +1,11 @@
+.awesomeheading {
+  color: blue;
+  background-color: aqua;
+  text-align: center;
+  margin: 0 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+  display: block;
+  border: 3px black;
+  border-radius: 20px;
+}
