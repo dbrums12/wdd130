@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
 ::content {
   width: 1600px;
   margin: 0 auto;
@@ -35,6 +36,18 @@ nav a:hover {
 .join {
   background-color: #dda15e;
   text-decoration: none;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
 }
 .book:hover,
 .join:hover {
@@ -86,4 +99,22 @@ footer a:hover {
 }
 #hero-img {
   width: 100%;
+}
+.home-title {
+  font-family: Oswald, Helvetica, sans-serif;
+  font-size: 2em;
+}
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
+body {
+  background-color: #fcfbfb;
+  font-family: Oswald, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
 }

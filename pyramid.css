@@ -1,0 +1,19 @@
+.top {
+  color: black;
+  background-color: yellow;
+  width: 300px;
+  margin: 0 auto;
+}
+.middle {
+  color: black;
+  background-color: red;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.bottom {
+  color: black;
+  background-color: blue;
+  width: 300px;
+  margin: 0 auto;
+}
