@@ -5,7 +5,7 @@
 }
 header {
   display: grid;
-  grid-template-columns: 150px auto;
+  grid-template-columns: 100% auto;
 }
 nav {
   display: flex;
@@ -19,7 +19,7 @@ nav {
 #hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  margin-top: -100px;
+  margin-top: 0px;
 }
 #hero-box {
   grid-column: 1/4;
@@ -50,6 +50,7 @@ main section {
 }
 #background {
   height: 725px;
+  background-color: #dda15e;
 }
 body {
   background-color: #606c38;
