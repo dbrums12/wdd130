@@ -1,5 +1,6 @@
 .list-items {
   list-style-type: circle;
+  font-size: 15px;
 }
 #things,
 #image,
