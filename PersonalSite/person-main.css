@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap");
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+#title-logo {
+  display: flex;
+}
+
+.title-font {
+  display: inline-block;
+  color: white;
+  font-size: 48px;
+  font: "Anton";
+  font-weight: bold;
+  width: 280px;
+  background-color: #05299e;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-top: 0px;
+  border-style: inset;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.logo-tr {
+  width: 150px;
+  height: 150px;
+  margin-left: 1000px;
+  border-style: outset;
+  border-color: white;
+  border-radius: 5px;
+}
+
+#info-box {
+  background-color: #05299e;
+  height: 400px;
+  width: 750px;
+  color: #a6120d;
+  border-style: inset;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.para-font {
+  color: white;
+  font-size: 45px;
+  font: Roboto, sans-serif;
+  height: 350px;
+  width: 750px;
+}
+
+body {
+  background-image: url("https://thumbs.gfycat.com/FineSecondaryEft-size_restricted.gif");
+  object-fit: cover;
+  background-size: cover;
+}
+#video {
+  justify-content: right;
+  margin-left: 60px;
+  border-style: inset;
+  border-color: white;
+  border-radius: 5px;
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+#paragraph-video {
+  display: flex;
+}
+.dollar-sign,
+.dollar {
+  width: 100px;
+  height: 150px;
+  background-color: #c33c54;
+  margin-right: 150px;
+  border-style: inset;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.question-mark,
+.question {
+  width: 100px;
+  height: 150px;
+  background-color: #c33c54;
+  border-style: inset;
+  border-color: white;
+  border-radius: 10px;
+}

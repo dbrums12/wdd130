@@ -1,0 +1,113 @@
+.list-items {
+  list-style-type: circle;
+}
+#things,
+#image,
+#mid-sec,
+#compare {
+  display: inline-block;
+}
+
+#mid-sec {
+  display: flex; /* establish flex container */
+  flex-direction: row; /* stack flex items horizontally */
+  align-items: center; /* center items vertically, in this case */
+  height: 300px;
+  border: 3px solid white;
+}
+#things {
+  margin-right: 250px;
+}
+#compare {
+  text-align: center;
+  margin-left: 275px;
+}
+.space {
+  height: 300px;
+  width: 200px;
+}
+.page-question {
+  text-align: center;
+  background-color: #05299e;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 0px;
+  font-size: 36px;
+}
+.things-need,
+.top-compare,
+.bot-compare {
+  font-size: 18px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #05299e;
+}
+.us,
+.ussr {
+  font-size: 0px;
+  width: 150px;
+}
+.top-compare:hover + .us {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  background-color: #05299e;
+}
+.bot-compare:hover + .ussr {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  background-color: #05299e;
+}
+.list-items {
+  color: white;
+}
+
+.top-compare {
+  text-align: center;
+}
+
+body {
+  background-image: url(https://assets.objkt.media/file/assets-003/QmUsMpgL2h8kYMdedVcY62YVWC3gDxovZ3ymiGtYE6qWZm/artifact);
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: top;
+}
+
+.home-sign {
+  width: 100px;
+  height: 150px;
+  vertical-align: top;
+  background-color: #c33c54;
+  margin-left: 200px;
+  margin-right: 150px;
+  margin-top: 40px;
+  border-style: inset;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.question-mark {
+  width: 100px;
+  height: 150px;
+  vertical-align: top;
+  background-color: #c33c54;
+  margin-right: 150px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border-style: inset;
+  border-color: white;
+  border-radius: 10px;
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
