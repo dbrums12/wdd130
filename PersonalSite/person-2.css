@@ -8,7 +8,25 @@
 #compare {
   display: inline-block;
 }
+footer {
+  background-color: #a6120d;
+  color: #0d1922;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0px 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+footer a {
+  color: #0d1922;
+}
+footer a:hover {
+  color: #0d1922;
+  text-decoration: underline;
+}
 #mid-sec {
   display: flex; /* establish flex container */
   flex-direction: row; /* stack flex items horizontally */
